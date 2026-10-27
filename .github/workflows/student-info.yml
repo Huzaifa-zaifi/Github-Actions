@@ -1,0 +1,16 @@
+
+name: Student Information
+
+on:
+  push:
+
+jobs:
+  student:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Student Information
+        run: |
+          echo "Student Name: Huzaifa Amjad"
+          echo "University: CUST"
+          echo "Degree: BS Cyber Security"
+          echo "Semester: 6th"
