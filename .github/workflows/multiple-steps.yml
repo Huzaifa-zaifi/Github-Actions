@@ -1,0 +1,21 @@
+
+name: Multiple Steps Workflow
+
+on:
+  push:
+
+jobs:
+  multiple-steps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1 - Greeting
+        run: echo "Hello, welcome to my workflow!"
+
+      - name: Step 2 - Display Date
+        run: date
+
+      - name: Step 3 - Display Current Directory
+        run: pwd
+
+      - name: Step 4 - Completion Message
+        run: echo "All workflow steps completed successfully!"
