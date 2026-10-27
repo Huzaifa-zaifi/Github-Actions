@@ -1,6 +1,5 @@
 
 name: Python Automated Testing
-
 on:
   push:
   pull_request:
